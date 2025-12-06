@@ -1,0 +1,17 @@
+import java.util.Scanner;
+import java.lang.System;
+class joe{
+    public static void main(String args[]){
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Megna is ");
+        String Megna = scan.nextLine();
+       if (Megna.equals("dead") )
+        {
+            System.out.println("surya meets ramya");
+        }
+        else
+        {
+            System.out.println("megna weds surya");
+        }
+    }
+}
