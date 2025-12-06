@@ -1,0 +1,15 @@
+class joe{
+    public static void main(String args[]){
+        int num1 = 40;
+        int num2 = 50;
+        
+        if (num1 == num2 )
+        {
+            System.out.println("Both are Equal");
+        }
+        else
+        {
+            System.out.println("both re not equal");
+        }
+    }
+}
