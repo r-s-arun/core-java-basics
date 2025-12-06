@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class hello{
+    public static void main(String[]args){
+        {
+            int[] score = new int[5]; 
+            Scanner scan = new Scanner(System.in);
+            System.out.print("Enter the 1 number = ");
+            score[0] = scan.nextInt();
+            System.out.print("Enter the 2 number = ");
+            score[1] = scan.nextInt();
+            System.out.print("Enter the 3 number = ");
+            score[2] = scan.nextInt();
+            System.out.print("Enter the 4 number = ");
+            score[3] = scan.nextInt();
+            System.out.print("Enter the 5 number = ");
+            score[4] = scan.nextInt();
+             System.out.print(score[0]+score[1]+score[2]+score[3]+score[4]);
+        }
+    }}
