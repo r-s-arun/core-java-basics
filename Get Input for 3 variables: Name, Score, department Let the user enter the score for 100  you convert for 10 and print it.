@@ -1,0 +1,14 @@
+import java.lang.System;
+import java.util.Scanner;
+class Hi{
+    public static void main(String args[]){
+        Scanner Dear = new Scanner(System.in);
+        String Name = Dear.nextLine();
+        Double Score = Dear.nextDouble();
+        Dear.nextLine();
+        String Department = Dear.nextLine();
+        System.out.println("your Name is "+Name);
+        System.out.println("your Score out of 10 is "+Score/10);
+        System.out.println("your dept is "+Department);
+    }
+}
