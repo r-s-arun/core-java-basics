@@ -1,0 +1,17 @@
+import java.util.Scanner;
+import java.lang.System;
+class hello{
+    public static void main(String args[]){
+        Scanner Arun = new Scanner(System.in);
+        System.out.print("Name = ");
+        String a = Arun.nextLine();
+        System.out.print("Age = ");
+        int b = Arun.nextInt();
+        Arun.nextLine();
+        System.out.print("Address = ");
+        String c = Arun.nextLine();
+        System.out.println("Your Name Is = "+a);
+        System.out.println("Your Age = "+b);
+         System.out.println("Your Address = "+c);
+    }
+}
